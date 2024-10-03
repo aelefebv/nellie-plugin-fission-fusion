@@ -1,31 +1,32 @@
 from setuptools import setup
 
 setup(
-    name='my-nellie-plugin',
-    version='0.1.4',
+    name='count-label-changes',
+    version='0.1.0',
     py_modules=['plugin_module'],
 
     install_requires=[
         'nellie',
         'numpy',
+        'pandas',
     ],
 
     entry_points={
         'nellie.plugins': [
-            'Custom Plugin Name = plugin_module:nellie_plugin_function',
+            'Count Label Changes = plugin_module:count_label_changes',
         ],
     },
 
-    author='Your Name',
-    author_email='your.email@example.com',
-    description='A plugin for Nellie that does XYZ',
+    author='Austin E. Y. T. Lefebvre',
+    author_email='austin.e.lefebvre+nellie@gmail.com',
+    description='A plugin for Nellie that counts label changes. One type of typically used fission and fusion metric.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/my-nellie-plugin',
+    url='https://github.com/aelefebv/nellie-plugin-fission-fusion',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
-    python_requires='>=3.6',
+    python_requires='>=3.9',
 )
