@@ -1,6 +1,10 @@
 # Overview
 
-This module is designed to work within the Nellie-Napari ecosystem to detect and quantify fission and fusion events of organelles in time-lapse imaging data. It leverages preprocessed data from Nellie, performs event detection, and outputs the results for further analysis.
+This module is designed to work within the Nellie-Napari ecosystem to detect organelle label changes between frames. One of the metrics for fission and fusion quantification. It leverages processed data from Nellie, performs event detection, and outputs the results for further analysis.
+
+# Tutorial
+
+https://github.com/user-attachments/assets/8844b54e-8d8f-472d-bcda-500cb4e05389
 
 # Features
 
