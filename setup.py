@@ -7,7 +7,6 @@ setup(
 
     install_requires=[
         'nellie',
-        'numpy',
         'pandas',
     ],
 
