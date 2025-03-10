@@ -1,0 +1,11 @@
+[project]
+name = "nellie-plugin-fission-fusion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "napari[all]>=0.5.6",
+    "nellie>=0.4.1",
+    "setuptools>=76.0.0",
+]
