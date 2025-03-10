@@ -23,7 +23,7 @@ https://github.com/user-attachments/assets/8844b54e-8d8f-472d-bcda-500cb4e05389
 
 # Installation
 ```bash
-pip install nellie-plugin-fission-fusion
+pip install count-label-changes
 ```
 
 # Usage
